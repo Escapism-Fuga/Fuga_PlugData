@@ -13,6 +13,7 @@
 # (these can all be overridden by the device sending OSC messages, search for these
 # names below to see the messages)
 #
+# DEVICE_TRACK_COUNT is how many tracks this device can display at once 
 # (the track bank size).
 # DEVICE_SEND_COUNT/DEVICE_RECEIVE_COUNT is how many sends and receives this
 # device can display at once.
