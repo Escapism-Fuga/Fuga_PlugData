@@ -1,3 +1,19 @@
+1 encoder tint feuille
+1 slider saturation feuille
+1 slider lighttess feuulle
+
+1 slider branche
+1 slider tron
+1 slider feuille
+
+1 slider grow 
+1 slider bloom (pt)
+
+
+
+
+
+
 # OSC pattern config file.
 
 # Make a copy of this file, rename it, and edit the file to create a 
