@@ -1,0 +1,12 @@
+#N canvas 827 239 527 327 12;
+#X obj 305 232 bng 15 250 50 0 empty empty data 17 7 0 10 #fcfcfc #000000 #000000;
+#X obj 223 129 netreceive -u -b 8004;
+#X obj 393 216 loadbang;
+#X msg 432 291 disconnect;
+#X obj 316 328 netsend -u -b;
+#X msg 393 255 connect 192.168.1.114 8002;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 5 0 4 0;
